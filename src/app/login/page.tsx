@@ -19,8 +19,7 @@ export default function LoginPage() {
       setMessage(error.message)
     } else {
       setMessage('ログイン成功！')
-      // ここでログイン後のページに遷移させることもできる
-      // router.push('/home') みたいに
+      window.location.href = '/home'
     }
   }
 
