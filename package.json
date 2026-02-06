@@ -10,10 +10,11 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.94.0",
+    "@types/react-router-dom": "^5.3.3",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-router-dom": "^7.13.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
