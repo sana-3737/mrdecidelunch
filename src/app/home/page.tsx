@@ -36,7 +36,7 @@ export default function HomeMenu() {
         <h1 className="menuTitle">ホーム</h1>
 
         <nav className="menuList">
-          <a href="/lunh">ランチ決定画面へ</a>
+          <a href="/lunch">ランチ決定画面へ</a>
           <a href="/profile">会員情報編集画面へ</a>
         </nav>
       </main>
