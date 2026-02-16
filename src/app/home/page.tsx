@@ -5,7 +5,7 @@ export default function HomePage() {
         <main>
             <h1>ホーム</h1>
             <ul>
-            <li><Link href="/">ランチ決定画面へ</Link></li>
+            <li><Link href="/lunh">ランチ決定画面へ</Link></li>
             <li><Link href="/member">会員情報編集画面へ</Link></li>
             </ul>
         </main>
