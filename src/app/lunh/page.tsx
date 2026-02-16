@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 
 const lunches = [
@@ -21,11 +23,7 @@ export default function LunchResult() {
     <div style={{ textAlign: "center" }}>
       <h1>今日のランチ</h1>
       <h2>{lunch.name}</h2>
-      <img
-        src={lunch.img}
-        alt={lunch.name}
-        width="300"
-      />
+      <img src={lunch.img} alt={lunch.name} width="300" />
     </div>
   );
 }
